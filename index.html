@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Document</title>
+    <title>TO-DO-LIST</title>
 </head>
+
 <body>
+    <main>
+        <div>
+            <h1 class="h1ToDoList">TO DO LIST</h1>
+        </div>
+        <div class="imgCentrale">
+            <p class="pWriteAndSave">Scrivi - Salva e Gestisci i Tuoi Promemoria</p>
+            <img class="imgAgendaImg" src="/img/planner-4884740_1280.jpg" alt="Foto con agenda e vaso di fiori" />
+        </div>
+        <div>
+            <form id="TaskToDo">
+                <div class="divNomeNota">
+                    <label for="text">Nome Della Tua Nota</label>
+                    <input id="nomeNota" type="text" placeholder="Il Nome della tua Nota">
+                </div>
+                <div class="divNoteVuoto">
+                    <label for="text">la Tua Nota</label>
+                    <input id="nota" type="text" placeholder="Scrivi La Tua Nota">
+                </div>
+                <div><button id="buttonSave">Salva</button>
+                </div>
+            </form>
+        </div>
+    </main>
     <script src="/JS/file.js"></script>
 </body>
+
 </html>
