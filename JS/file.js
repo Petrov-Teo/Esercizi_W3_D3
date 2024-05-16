@@ -15,8 +15,8 @@ form.addEventListener("submit", function (event) {
   const card = document.createElement("div");
   card.classList.add("divNote");
 
-  const cardNotaName = document.createElement("h4");
-  cardNotaName = newNota.nameDellaNota;
+  // // // // DA ERRORE  // // // const cardNotaName = document.createElement("h4");
+  // // // // // // // // // // cardNotaName = newNota.nameDellaNota;
 
   const cardNota = document.createElement("p");
   cardNota = newNota.nota;
