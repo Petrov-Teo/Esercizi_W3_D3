@@ -4,12 +4,13 @@ console.log(form);
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   const nomeNota =
-    document.getElementById("nomeNota").value;
+    document.getElementsByClassName("titolonota").value;
   const nota = document.getElementById("nota").value;
+  console.log(nomeNota);
   //creo l'oggetto
   const newNota = {
-    nameDellaNota: nomeNota,
-    nota: nota,
+    nameDellaNota: nomeNota.value,
+    nota: nota.value,
   };
   // creazione div
   const card = document.createElement("div");
